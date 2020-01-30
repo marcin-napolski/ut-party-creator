@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs'; // Observable is one of the key classes in the RxJS library.
 
 import { Hero } from './hero';
-import { HEROES } from './mock-heroes2';
+import { HEROES } from './mock-heroes';
 @Injectable({
   providedIn: 'root'
 })
